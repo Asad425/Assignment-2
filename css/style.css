@@ -16,12 +16,6 @@
     width: 350px;
    
 }
-/* .product-size{
-    width: 380px;
-} */
-/* #product-size1{
-    width: 400px;
-} */
 span{
     color:#FA804C ;
 }
@@ -34,21 +28,15 @@ span{
     color: #363958;
     font-weight: bold;
     font-size: 50px;
-
 }
  
 .button-color{
-    
     color: white;
     background-color: #3948D4!important;
-
-
-    
 }
 .custom-design{
     border: none!important;
     background-color:white!important;
-  
 }
 
 .special-effect img:hover{
@@ -73,14 +61,12 @@ span{
 .price-area{
     display: flex;
     justify-content: space-between;
-    color: #FA804C;
-    
+    color: #FA804C; 
 }
 .h4-style{
     font-size: 30px;
     font-weight: bold;
 }
- 
 .cart-style{
     width: 400px;
     height: 300px;
