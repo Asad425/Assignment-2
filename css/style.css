@@ -4,6 +4,10 @@
  .logo-size{
      width: 250px;
  }
+ .bottom-icon-size{
+     width: 150px;
+     padding: 20px;
+ }
  .back-color{
      background-color: #FFF9F4;
      border-radius: 5px;
@@ -12,17 +16,17 @@
     width: 350px;
    
 }
-.product-size{
+/* .product-size{
     width: 380px;
-}
-#product-size1{
+} */
+/* #product-size1{
     width: 400px;
-}
+} */
 span{
     color:#FA804C ;
 }
 .h1-style{
-   font-size:50px;
+   font-size:45px;
    font-weight: bold;
    color: #363958;
 }
@@ -41,8 +45,25 @@ span{
 
     
 }
+.custom-design{
+    border: none!important;
+    background-color:white!important;
+  
+}
+
+.special-effect img:hover{
+    z-index: 1;
+    transform:  rotate(45deg) scale(1.5,1.5);
+    transition: transform 3s ease-in-out;
+}
+.special-effect2 img:hover{
+    z-index: 1;
+    transform:  scale(1.2,1.2);
+    transition: transform 3s ease-in-out;
+}
 .btn-shape{
     margin-right: 10px;
+    padding: 0 10px;
 }
 .h5-style{
     font-size: 30px;
@@ -59,6 +80,25 @@ span{
     font-size: 30px;
     font-weight: bold;
 }
-.btn-padder{
-    padding: 0 10px;
+ 
+.cart-style{
+    width: 400px;
+    height: 300px;
+}
+ .input-style{
+     margin-left: 10px;;
+ }
+.p-style{
+    font-size: 20px;
+    color: #ffff;
+    margin-right: 10px;
+}
+.a-style {
+     text-decoration: none;
+    color: #ffff;
+}
+.card:hover{
+    z-index: 1;
+    transform: translateY(15px);
+    transition:  transform .2s ease-in-out;
 }
